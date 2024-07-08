@@ -1,0 +1,19 @@
+post http://localhost:3001/user/register
+Content-Type: application/json
+
+{
+"name":"1112222",
+"email":"22@gmail.com",
+"password":"1111111"
+}
+
+### login
+post http://localhost:3001/user/login
+Content-Type: application/json
+
+{
+"email":"22@gmail.com",
+"password":"1111111"
+}
+
+###

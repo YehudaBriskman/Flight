@@ -1,0 +1,57 @@
+post http://localhost:3001/flight/addFlight
+Content-Type: application/json
+
+{
+    "UserId": "661edbd1c5d2a0983242ccc3",
+    "Altitude":1450,
+    "His":100,
+    "ADI":29
+}
+
+###
+
+post http://localhost:3001/flight/searchFlightByHis
+Content-Type: application/json
+
+{
+    "UserId": "661edbd1c5d2a0983242ccc3",
+    "His":20
+}
+
+###
+
+post http://localhost:3001/flight/searchFlightByADI
+Content-Type: application/json
+
+{
+    "UserId": "661edbd1c5d2a0983242ccc3",
+    "ADI":5
+}
+
+###
+
+post http://localhost:3001/flight/searchFlightByAltitude
+Content-Type: application/json
+
+{
+    "UserId": "661edbd1c5d2a0983242ccc3",
+    "Altitude":200
+}
+
+###
+
+post http://localhost:3001/flight/getAllFlights
+Content-Type: application/json
+
+{
+    "UserId": "661f7cc1c373ed012e322322"
+}
+
+
+
+
+#   "UserId": "661f7cc1c373ed012e322322",
+#   "Altitude": 1450,
+#   "His": 100,
+#   "ADI": 29,
+#   "_id": "661f8d5be7fcf30c9c33ef1d",
